@@ -1,0 +1,19 @@
+{
+  "name": "base/base-plugin",
+  "description": "Awesome starter plugin example",
+  "type": "project",
+  "license": "GPL",
+  "authors": [
+    {
+      "name": "base",
+      "email": "base@email.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Inc\\": "./inc"
+    }
+  }
+}
